@@ -1,4 +1,4 @@
-# ![img](https://s4.ax1x.com/2022/02/11/HNIAQH.png)Joysound视频音效增强
+# Joysound视频音效增强 ![icon](https://s4.ax1x.com/2022/02/11/HNIAQH.png)
 > Joysound视频音效增强是一款基于Tampermonkey的脚本，使用wasm技术对网页中的视频音效进行增强优化，使得声音更加立体饱满
 
 ## 注意事项（Attention）
@@ -12,7 +12,8 @@
 1. 首先确保已经安装Tampermonkey
 2. [安装本脚本]()
 3. 访问网页，点击Tampermonkey图标，在弹出的菜单（Menu）中即可选择开启/关闭音效
-
+  
+![img](https://s4.ax1x.com/2022/02/11/HNIWtK.png)
 
 ## 接口（API）
 > 为了方便与其他脚本联动，本项目为用户提供了3个API使用
