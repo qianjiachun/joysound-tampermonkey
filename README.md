@@ -44,3 +44,8 @@ let joysound = window.getJoysoundByVideoNode(videoNode);
 joysound.enable(); // 开启
 joysound.disable(); // 关闭
 ```
+
+### 判断是否开启了Joysound
+```
+localStorage.getItem("Ex_isJoysound"); // 1开启 0关闭
+```
