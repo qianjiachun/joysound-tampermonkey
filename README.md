@@ -1,5 +1,5 @@
 # Joysound视频音效增强 ![icon](https://s4.ax1x.com/2022/02/11/HNIAQH.png)
-> Joysound视频音效增强是一款基于Tampermonkey的脚本，使用wasm技术对网页中的视频音效进行增强优化，使得声音更加立体饱满
+> 🎵✨Joysound视频音效增强是一款基于Tampermonkey的脚本，使用wasm技术对网页中的视频音效进行增强优化，使得声音更加立体饱满
 
 ## 注意事项（Attention）
 1. joysound来源于acfun
