@@ -40,7 +40,7 @@ window.disableJoysound();
 ```
 // 对网页中自定义的video元素进行音效增强
 let videoNode = document.querySelector("video");
-let joysound = getJoysoundByVideoNode(videoNode);
+let joysound = window.getJoysoundByVideoNode(videoNode);
 joysound.enable(); // 开启
 joysound.disable(); // 关闭
 ```
