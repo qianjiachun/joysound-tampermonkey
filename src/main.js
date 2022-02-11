@@ -5153,7 +5153,7 @@ function enableJoysound() {
     } else {
         let videoNodes = document.querySelectorAll("video");
         if (videoNodes.length <= 0) {
-            console.log("%c【Joysound音效增强】未找到video元素，video元素可能是在shadowRoot下或在iframe下", "color:green;")
+            alert("【Joysound音效增强】未找到video元素，可能是在iframe或shadowRoot下");
         }
         for (let i = 0; i < videoNodes.length; i++) {
             let item = new Joysound();
@@ -5172,6 +5172,7 @@ function disableJoysound() {
     localStorage.setItem(LOCAL_NAME, 0);
 }
 
+unsafeWindow.hasInstalledJoysound = true;
 unsafeWindow.enableJoysound = enableJoysound;
 unsafeWindow.disableJoysound = disableJoysound;
 
@@ -5184,9 +5185,6 @@ GM_registerMenuCommand("关闭", disableJoysound);
 
 (function () {
     let ret = localStorage.getItem(LOCAL_NAME);
-    if (!ret) {
-        localStorage.setItem(LOCAL_NAME, 0);
-    }
     if (ret == 1) {
         let count = 0;
         let timer = setInterval(() => {

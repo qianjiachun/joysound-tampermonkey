@@ -10,13 +10,19 @@
 
 ## 使用（Usage）
 1. 首先确保已经安装Tampermonkey
-2. [安装本脚本]()
+2. [安装本脚本](https://greasyfork.org/zh-CN/scripts/439845)
 3. 访问网页，点击Tampermonkey图标，在弹出的菜单（Menu）中即可选择开启/关闭音效
   
 ![img](https://s4.ax1x.com/2022/02/11/HNIWtK.png)
 
 ## 接口（API）
-> 为了方便与其他脚本联动，本项目为用户提供了3个API使用
+> 为了方便与其他脚本联动，本项目为用户提供了API
+
+### hasInstalledJoysound
+```
+// 判断是否安装了脚本，true则为已经安装
+window.hasInstalledJoysound
+```
 
 ### enableJoysound
 ```
