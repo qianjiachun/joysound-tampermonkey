@@ -7,6 +7,7 @@
     - video元素在iframe中
     - video元素在shadowRoot中
 3. 开启和关闭状态会自动进行保存
+4. **安装脚本后默认全局开启，如果遇到网页视频没有声音的情况，请手动关闭音效**
 
 ## 使用（Usage）
 1. 首先确保已经安装Tampermonkey
