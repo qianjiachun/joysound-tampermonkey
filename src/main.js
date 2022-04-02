@@ -130,8 +130,7 @@ function hasVideoNode() {
 }
 
 function isEnabledJoysound() {
-    // 第一次使用 或 设置开启，就返回true
-    return !localStorage.getItem(LOCAL_NAME) || localStorage.getItem(LOCAL_NAME) == 1;
+    return localStorage.getItem(LOCAL_NAME) == 1;
 }
 
 function openGithub() {
